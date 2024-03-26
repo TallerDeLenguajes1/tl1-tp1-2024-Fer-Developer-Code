@@ -24,6 +24,6 @@ int main(void) {
     printf("\nLa direccion de memoria almacenada del puntero es: %p", puntero);
     printf("\nLa direccion de memoria de la variable es: %p", &num);
     printf("\nLa direccion de memoria del puntero es: %p", &puntero);
-    printf("\nEl tamanio de memoria utilizado por la variable es: %d", sizeof(num));
+    printf("\nEl tamanio de memoria utilizado por la variable es: %d bytes", sizeof(num));
     return 0;
 }
