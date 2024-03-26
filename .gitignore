@@ -1,7 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,text
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++,text
 
-!*archivo.txt
+!archivo.txt
 
 ### C++ ###
 # Prerequisites
