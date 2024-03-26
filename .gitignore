@@ -1,8 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,text
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++,text
 
-!archivo.txt
-
 ### C++ ###
 # Prerequisites
 *.d
@@ -47,6 +45,8 @@
 *.txt
 *.wpd
 *.wps
+
+!archivo.txt
 
 ### VisualStudioCode ###
 .vscode/*
