@@ -20,6 +20,7 @@ ii. git commit -m “ejercicio 2.4 completado”
 iii. git push*/
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int cuadrado(int a);
 void cuadradoVoid(int *a, int *resultado);
@@ -65,6 +66,8 @@ int cuadrado(int a) {
 void cuadradoVoid(int *a, int *resultado) {
     *resultado = *a * *a;
     printf("La direccion de la variable es %p y el contenido %d\n", a, *a);
+    free(a);
+    free(resultado);
 }
 
 void invertir(int *a, int *b){

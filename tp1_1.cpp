@@ -15,6 +15,7 @@ readme.md
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void) {
     printf("Hola mundo");
@@ -25,5 +26,6 @@ int main(void) {
     printf("\nLa direccion de memoria de la variable es: %p", &num);
     printf("\nLa direccion de memoria del puntero es: %p", &puntero);
     printf("\nEl tamanio de memoria utilizado por la variable es: %d bytes", sizeof(num));
+    free(puntero);
     return 0;
 }
